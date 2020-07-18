@@ -1,0 +1,19 @@
+.headerClass{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-bottom: 1px solid #282c34;
+    align-items: center;
+    box-shadow: #282c34 0px 5px 5px;
+}
+
+.headerClass__button{
+    border: none;
+    border-radius: 5px;
+    background-color: #ddd;
+    font-size: 20px;
+    color: #282c34;
+    padding: 8px;
+    margin: 0 10px;
+    box-shadow: #282c34 4px 4px 4px;
+}

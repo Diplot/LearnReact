@@ -1,0 +1,27 @@
+.mainForm{
+    background-color: #444444;
+    padding: 25px;
+    margin: 10px 20px;
+}
+.mainForm__item{
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 4px;
+    margin: 0 10px;
+}
+.mainForm__item_text{
+    width: 200px;
+}
+.mainForm__item_number{
+    width: 80px;
+}
+.mainForm__item_button{
+    background-color: #f66;
+}
+.mainAbout{
+    text-align: justify;
+    margin: 0 20px;
+}
+.mainAbout__h1{
+    color: #ff6666;
+}

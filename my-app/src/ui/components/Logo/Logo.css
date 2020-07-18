@@ -1,0 +1,14 @@
+.logoClass{
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.logoClass__img{
+    width: 36px;
+    height: 36px;
+}
+.logoClass__name {
+    color: #ff6666;
+    font-size: 36px;
+}
