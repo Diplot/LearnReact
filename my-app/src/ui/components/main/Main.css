@@ -5,7 +5,7 @@
 }
 .mainForm__item{
     padding: 5px 10px;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 4px;
     margin: 0 10px;
 }
@@ -13,7 +13,7 @@
     width: 200px;
 }
 .mainForm__item_number{
-    width: 80px;
+    width: 84px;
 }
 .mainForm__item_button{
     background-color: #f66;

@@ -1,0 +1,29 @@
+@import "../../_helpers/style";
+.hotel{
+  overflow: hidden;
+  margin: 10px 20px;
+  border: solid 1px #999;
+  border-radius: 10px;
+  text-align: start;
+  width: 760px;
+  height: 160px;
+    &__img{
+      height: 160px;
+      width: 150px;
+      margin-right: 10px;
+      float: left;
+    }
+    &__name{
+      margin-top: 30px;
+      font-size: 20px;
+      color: #282c34;
+    }
+    &__rating{
+      font-size: 36px;
+      color: gold;
+    }
+    &__adress{
+      font-size: 18px;
+      color: gray;
+    }
+}

@@ -1,10 +1,14 @@
 import React from "react";
 import './Main.css';
+import Text from "../Text/Text";
+import Result from "../Result/Result";
+import Filter from "../Filter/Filter";
+
 function Main() {
 
     return <div>
         <form action="" className={"mainForm"}>
-            <select name="" id="destination" className={"mainForm__item mainForm__item_text"} >
+            <select name="" id="destination" className={"mainForm__item mainForm__item_text"}>
                 <option value="">Днепр</option>
                 <option value="">Киев</option>
                 <option value="">Харьков</option>
@@ -16,17 +20,11 @@ function Main() {
             <input className={"mainForm__item mainForm__item_number"} type="number" placeholder={'Children'} required/>
             <input className={"mainForm__item mainForm__item_button"} type="submit" value={"SEARCH"}/>
         </form>
-        <div className={'mainAbout'}>
-            <h1>Travel with <span className={'mainAbout__h1'}>Booking</span></h1>
-            <p className={'mainAbout__p'}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus aliquam animi assumenda aut
-                consectetur cum debitis deleniti eaque facere facilis hic ipsam, nam quam repellat reprehenderit
-                totam velit voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus aliquam
-                animi assumenda aut consectetur cum debitis deleniti eaque facere facilis hic ipsam, nam quam repellat
-                reprehenderit totam velit voluptatem.
-            </p>
-        </div>
-
+        <Text/>
+        <Filter />
+        <Result/>
     </div>
 
 }
+
 export default Main;
